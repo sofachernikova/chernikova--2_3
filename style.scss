@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url("img/background__image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 715px;
+    display: flex;
+    justify-content: flex-start;
+
+    &__section {
+        width: 1201.28px;
+        margin-top: 36px;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 50px;
+    }
+
+    &__wrapper {
+        width: 100%;
+        max-width: 1400px;
+    }
+
+    &__logo {
+        text-decoration: none;
+        position: absolute;
+    }
+
+    &__nav {    
+        display: flex;        
+    }
+
+    &__phone {
+        text-decoration: none;
+        font-family: Montserrat;
+        font-size: 16px;
+        line-height: 20px;
+        color: #533738;
+        margin-left: 22.25px;
+    }
+
+    &__content {
+        margin-left: 70px;
+        margin-top: 94px;
+        margin-right: auto;
+    }
+
+    &__title {
+        max-width: 534.02px;
+    }
+
+    &__subtitle {
+        max-width: 493.57px;
+        height: 90px;
+        margin-top: 24px;
+    }
+
+    &__button {
+        margin-top: 21px;
+    }
+
+}
+
+.logo {
+
+    &__img {
+        width: 23px;
+        margin-bottom: -5px;
+    }
+
+    &__text {
+        font-family: Montserrat;
+        font-size: 16px;
+        line-height: 20px;
+        color: #533738;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
+
+.nav {
+
+    display: flex;
+
+    &__list {
+        margin-left: auto;
+        margin-right: 0;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+    }
+
+    &__item {
+        font-family: Montserrat;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: #533738;
+        margin-left: 22.25px;
+    }
+
+    &__link {
+        color: #533738;
+        text-decoration: none;
+    }
+
+    &__link:hover {
+        color: #a08a8b;
+        transition: 1s;
+    }
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+.title {
+    font-family: Montserrat;
+    font-size: 50px;
+    line-height: 62px;
+    color: #533738;
+    word-wrap: break-word;
+    font-weight: normal;
+
+}
+
+.subtitle {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
+}
+
+.squareButton {
+    background: #CC8B86;
+    width: 309.14px;
+    height: 74px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #533738;
+    border: none;
+    outline: none;
+}
+.squareButton:hover {
+    background: #d4a7a4;
+    transition: 1s;
+}

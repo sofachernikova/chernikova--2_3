@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("img/background__image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 715px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.header__section {
+  width: 1201.28px;
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 50px;
+}
+
+.header__wrapper {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.header__logo {
+  text-decoration: none;
+  position: absolute;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__phone {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
+  color: #533738;
+  margin-left: 22.25px;
+}
+
+.header__content {
+  margin-left: 70px;
+  margin-top: 94px;
+  margin-right: auto;
+}
+
+.header__title {
+  max-width: 534.02px;
+}
+
+.header__subtitle {
+  max-width: 493.57px;
+  height: 90px;
+  margin-top: 24px;
+}
+
+.header__button {
+  margin-top: 21px;
+}
+
+.logo__img {
+  width: 23px;
+  margin-bottom: -5px;
+}
+
+.logo__text {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
+  color: #533738;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__list {
+  margin-left: auto;
+  margin-right: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+}
+
+.nav__item {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
+  color: #533738;
+  margin-left: 22.25px;
+}
+
+.nav__link {
+  color: #533738;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #a08a8b;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+  /* 1 */
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 50px;
+  line-height: 62px;
+  color: #533738;
+  word-wrap: break-word;
+  font-weight: normal;
+}
+
+.subtitle {
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+
+.squareButton {
+  background: #CC8B86;
+  width: 309.14px;
+  height: 74px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
+  border: none;
+  outline: none;
+}
+
+.squareButton:hover {
+  background: #d4a7a4;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=style.css.map */
