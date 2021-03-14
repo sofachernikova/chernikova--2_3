@@ -363,3 +363,85 @@ body {
     grid-column: 4/6;
     grid-row: 2/3;
 }
+
+.team {
+    background: #E2C4BA;
+    min-height: 998px;
+    width: 100%;
+    margin-top: 1074px;
+
+    &__people {
+        display: flex;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    
+    }
+
+    &__title {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 42px;
+    }
+
+    &__work {
+        display: flex;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+
+}
+
+.person {
+    width: 320px;
+
+    &__text {
+        width: 328px;
+        height: 150px;
+
+        font-family: Montserrat;
+        font-size: 18px;
+        line-height: 30px;
+        color: #533738;
+    }
+}
+
+.circle {
+    background: #8D7370;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    &__text {
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
+
+.advantages {
+    width: 285px;
+    text-align: center;
+
+    &__text {
+        width: 285px;
+        font-family: Montserrat;
+        font-size: 18px;
+        line-height: 30px;
+        color: #533738;
+    }
+}
