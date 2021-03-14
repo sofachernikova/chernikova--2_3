@@ -327,6 +327,24 @@ body {
         z-index: 100;
         transition: .5s ease;
     }
+
+    &__watchMore {
+        position: absolute;
+        margin-top: 972px;
+
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #533738;
+        text-decoration: none;
+        margin-left: 453px;
+    }
+
+    &__watchMore:hover {
+        color: #9e7577;
+        transition: 1s;
+    }
 }
 
 .p1 {
