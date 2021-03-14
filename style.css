@@ -574,4 +574,103 @@ body {
   -ms-grid-column: 4;
   grid-area: b5;
 }
+
+.application {
+  background: #8D7370;
+  height: 624px;
+}
+
+.application__content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.application__title {
+  color: white;
+  padding-top: 50px;
+}
+
+.application__form {
+  width: 100%;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content__submit {
+  width: 47%;
+}
+
+.content__map {
+  width: 47%;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.content__subtitle {
+  position: absolute;
+  width: 507px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  margin-top: 24px;
+}
+
+.form__input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  height: 60px;
+  border-bottom: 1px solid white;
+  margin-top: 30px;
+  outline: none;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #F6EDE9;
+}
+
+::-webkit-input-placeholder {
+  width: 95px;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #F6EDE9;
+}
+
+:-ms-input-placeholder {
+  width: 95px;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #F6EDE9;
+}
+
+::-ms-input-placeholder {
+  width: 95px;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #F6EDE9;
+}
+
+::placeholder {
+  width: 95px;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #F6EDE9;
+}
 /*# sourceMappingURL=style.css.map */

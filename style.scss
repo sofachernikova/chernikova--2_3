@@ -502,3 +502,74 @@ body {
         grid-area: b5;
     }
 }
+
+.application {
+    background: #8D7370;
+    height: 624px;
+
+    &__content {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    &__title {
+        color: white;
+        padding-top: 50px;
+    }
+
+    &__form {
+        width: 100%;
+    }
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__submit {
+        width: 47%;
+    }
+
+    &__map {
+        width: 47%;
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    &__subtitle {
+        position: absolute;
+        width: 507px;
+        font-family: Montserrat;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+        opacity: 0.6;
+        margin-top: 24px;
+    }
+}
+
+.form {
+    &__input {
+        width: 100%;
+        background: transparent;
+        border: none;
+        height: 60px;
+        border-bottom: 1px solid white;
+        margin-top: 30px;
+        outline: none;
+        font-family: Montserrat;
+        font-size: 18px;
+        line-height: 30px;
+        color: #F6EDE9;
+    }
+}
+::placeholder {
+    width: 95px;
+    height: 30px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 30px;
+    color: #F6EDE9;
+}
